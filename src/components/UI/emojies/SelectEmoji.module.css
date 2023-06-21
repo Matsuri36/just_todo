@@ -1,0 +1,45 @@
+.outOfModal {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: none;
+    top: 0;
+    left: 5vw;
+}
+
+.modal {
+    background: #566ece;
+    max-width: 30vw;
+    height: auto;
+    padding: 10px;   
+    display: flex; 
+}
+
+.active {
+    display: block;
+}
+
+.modalBtn {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 2px solid #fff;
+    background: #566ece;
+    margin: 5px 5px;
+}
+
+.modalBtn:hover {
+    background: inherit;
+    background: #2d4dcc;
+}
+
+.modalBtn:active {
+    background: inherit;
+}
+
+.modalBtn > svg {
+    height: 50%;
+    width: 100%;
+    margin: auto;
+}
